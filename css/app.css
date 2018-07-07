@@ -1,0 +1,26 @@
+
+body{
+	background-color: #b24040;
+/*	background: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0483/4300/rblack_woodgrain_black_preview.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;*/
+}
+
+h1 {
+	color: #000;
+/*	border-color: #5b406d;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 5px solid #5b406d;
+}
+
+h4 {
+	background-color: rgb(200,49,30);
+	color: #000;
+}
+
+li {
+	color: rgba(11,200,150,.8);
+}
