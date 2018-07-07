@@ -1,0 +1,45 @@
+<!-- radio button -->
+<!-- select tag -->
+<!-- textarea tag -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="Keith Alleman">
+	<meta name="Description" content="Inputs demo from course">
+	<title>Inputs Demo</title>
+</head>
+<body>
+	
+	<p> Do you prefer cats or dogs?</p>
+	
+	<form>
+		<!-- if the radio input has the same name, then you can only select one -->
+		<!-- added value="" to show that when submitted store (value="") in 'pet-choice' -->
+		<label for="dog">Dogs</label>
+		<input type="radio" id="dogs" name="pet-choice" value="DOGS">
+
+		<label for="cats">Cats</label>
+		<input type="radio" id="cats" name="pet-choice" value="CATS">
+
+		<p>What's your current mood</p>
+
+		<select name="mood" id="color">
+			<!-- value is what gets sent during the request/submit -->
+			<option value="Happy">:)</option>
+			<option value="Meh">:|</option>
+			<option value="Sad">:(</option>
+		</select>
+	<div class="textbox" style="margin-top: 20px;">
+		<div class="dog-para-container">
+			<label for="dog-para">Describe your doggo</label>
+		</div>
+			<textarea name="paragraph" rows="10" cols="50" id="dog-para"></textarea>
+	</div>
+
+		<button style="margin-top: 10px;">Go!</button>
+	</form>
+
+</body>
+</html>
