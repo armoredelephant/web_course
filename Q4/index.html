@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="Keith Alleman">
+	<meta name="Description" content="Quiz 4 on forms">
+	<title>Forms Quiz</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<div class="form-name">
+
+			<label for="firstname">First Name:</label>
+			<input type="text" name="first-name-field" id="firstname" placeholder="John" required>
+
+			<label for="last-name">Last Name:</label>
+			<input type="text" name="last-name-field" id="lastname" placeholder="Smith" required>
+
+		</div>
+		<div class="form-gender">
+
+			<label for="gender-male">Male</label>
+			<input type="radio" id="gender-male" name="gender-select" value="MALE">
+
+			<label for="gender-female">Female</label>
+			<input type="radio" id="gender-female" name="gender-select" value="FEMALE">
+
+			<label for="gender-other">Other</label>
+			<input type="radio" id="gender-other" name="gender-select" value="OTHER">
+
+		</div>
+		<div class="form-email">
+			
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder="Your email" required>
+
+			<label for="form-password">Password:</label>
+			<!-- bonus for the pattern instead of minlength/maxlength -->
+			<input type="password" pattern=".{5,10}" title="5-10 characters" id="form-password" placeholder="5-10 characters" required>
+
+		</div>
+		<div class="form-birthday">
+
+			<label for="birthday">Birthday:</label>
+
+			<select name="birth-month" id="birthday">
+				<option value="Month" selected>Month</option>
+				<option value="Jan">January</option>
+				<option value="Feb">February</option>
+			</select>
+
+			<select name="birth-day" id="birthday">
+				<option value="Day" selected>Day</option>
+				<option value="Sun">Sunday</option>
+				<option value="Mon">Monday</option>
+			</select>
+			
+			<select name="birth-year" id="birthday">
+				<option value="Year" selected>Year</option>
+				<option value="1990">1990</option>
+				<option value="1989">1989</option>
+			</select>
+
+		</div>
+		<div class="form-agree">
+
+			<label for="terms">I agree to the terms and conditions</label>
+			<input type="checkbox" name="terms-agreed" id="terms" value="yes" required>
+
+		</div>
+		<div class="form-button">
+
+			<button>Submit</button>
+
+		</div>
+	</form>
+</body>
+</html>
+
+<!-- firstname, lastname, email - required -->
+<!-- add a another validation, validate the length: Password between 5-10 char -->
+<!-- birthday label 2-3 in each dropdown -->
