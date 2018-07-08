@@ -4,7 +4,7 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 /* Give the <body> element a background of bdc3c7*/
 
 body {
-	color: #bdc3c7;
+	background-color: #bdc3c7;
 }
 
 /* Make the <h1> element #9b59b6*/
@@ -51,7 +51,7 @@ input {
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
 
-div > p {
+div p {
 	font-size: 25px;
 }
 
@@ -63,13 +63,15 @@ input[type="text"] {
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
 
-div:nth-of-type(3) > p {
+div:nth-of-type(3) p {
 	background-color: pink;
 }
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 
-div:nth-of-type(3) > p:last-child {
+/*div:nth-of-type(3) p:nth-of-type(2) {}*/
+
+div:nth-of-type(3) p:last-child {
 	border: 5px solid white;
 }
 
@@ -85,6 +87,8 @@ div:nth-of-type(3) em {
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
 
+/*input:checked {}*/
+
 input[type="checkbox"]:checked {
 	margin-left: 50px;
 }
@@ -96,6 +100,8 @@ label {
 }
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
+
+/*#special:first-letter {}*/
 
 #special::first-letter {
 	color: green;
