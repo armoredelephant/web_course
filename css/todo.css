@@ -1,0 +1,19 @@
+body {
+	background: #c68a54;
+}
+
+ul {
+	list-style: none;
+}
+
+/*#special {
+	color: #704dd5;
+}*/
+
+li:last-child {
+	color: #3494ae;
+}
+
+.strike {
+	text-decoration: line-through;
+}
