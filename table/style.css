@@ -1,0 +1,33 @@
+
+h1 {
+	text-align: center;
+}
+
+.tic-tac-toe {
+	width: 50;
+}
+
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	margin: 0 0; 
+	width: 150px;
+	height: 150px;
+}
+
+.row-middle > td:nth-of-type(2) {
+	border: 1px solid black;
+}
+
+tr > td:nth-of-type(2) {
+	border-left: 1px solid black;
+	border-right: 1px solid black;	
+}
+
+.row-middle td {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
