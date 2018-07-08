@@ -1,0 +1,33 @@
+body {
+	width: auto;
+}
+
+.page {
+	margin: 15px 15%;
+	padding: 15px 20px;
+	border: 15px solid #bdc3c7;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+time {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #3498db;
+}
+
+h2 {
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+
+p:first-child {
+	border-left: 4px solid #bdc3c7;
+	padding: 3px;
+}
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
