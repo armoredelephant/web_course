@@ -1,0 +1,45 @@
+/*body {
+	padding-top: 70px;
+}*/
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+/* would be cool to make beer fit up with a background image and some sort of transition? */
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:active {
+	color: #CEC25A;
+	transition: color 2s ease-out;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.container-fluid {
+	background: #6C7CB4;
+}
+
+.background-image {
+	background-image: url(hubble.jpg);
+	height: 500px;
+}
+
+header {
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
